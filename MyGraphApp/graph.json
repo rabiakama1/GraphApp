@@ -1,0 +1,18 @@
+{
+    "id": "d143c6b3-d26e-4e62-8f97-c395f229e04e",
+    "pointType": "point",
+    "edges": [
+        {
+            "id": "ad53649c-404d-485c-86fb-4ed98c8270b0",
+            "weight": 7.5
+        },
+        {
+            "id": "01cec1b6-9259-817e-62b5-3260db50a4fc",
+            "weight": 12
+        },
+        {
+            "id": "6712fa67-e599-4231-8c15-fa8446b4ffc8",
+            "weight": 13
+        }
+    ]
+} 

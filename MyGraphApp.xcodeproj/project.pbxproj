@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65B66E552DD3D16200AA06EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B66E542DD3D16200AA06EE /* AppDelegate.swift */; };
+		65B66E572DD3D16200AA06EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B66E562DD3D16200AA06EE /* SceneDelegate.swift */; };
+		65B66E592DD3D16200AA06EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B66E582DD3D16200AA06EE /* ViewController.swift */; };
+		65B66E5C2DD3D16200AA06EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B66E5A2DD3D16200AA06EE /* Main.storyboard */; };
+		65B66E5E2DD3D16300AA06EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65B66E5D2DD3D16300AA06EE /* Assets.xcassets */; };
+		65B66E612DD3D16300AA06EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B66E5F2DD3D16300AA06EE /* LaunchScreen.storyboard */; };
+		65B66E6C2DD3D16300AA06EE /* MyGraphAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B66E6B2DD3D16300AA06EE /* MyGraphAppTests.swift */; };
+		65B66E762DD3D16300AA06EE /* MyGraphAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B66E752DD3D16300AA06EE /* MyGraphAppUITests.swift */; };
+		65B66E782DD3D16300AA06EE /* MyGraphAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B66E772DD3D16300AA06EE /* MyGraphAppUITestsLaunchTests.swift */; };
+		65B66E852DD3F3A400AA06EE /* MyGraphFramework in Resources */ = {isa = PBXBuildFile; fileRef = 65B66E842DD3F3A400AA06EE /* MyGraphFramework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65B66E682DD3D16300AA06EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65B66E492DD3D16200AA06EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65B66E502DD3D16200AA06EE;
+			remoteInfo = MyGraphApp;
+		};
+		65B66E722DD3D16300AA06EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65B66E492DD3D16200AA06EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65B66E502DD3D16200AA06EE;
+			remoteInfo = MyGraphApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65B66E512DD3D16200AA06EE /* MyGraphApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyGraphApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65B66E542DD3D16200AA06EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65B66E562DD3D16200AA06EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		65B66E582DD3D16200AA06EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65B66E5B2DD3D16200AA06EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65B66E5D2DD3D16300AA06EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65B66E602DD3D16300AA06EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65B66E622DD3D16300AA06EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65B66E672DD3D16300AA06EE /* MyGraphAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyGraphAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65B66E6B2DD3D16300AA06EE /* MyGraphAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGraphAppTests.swift; sourceTree = "<group>"; };
+		65B66E712DD3D16300AA06EE /* MyGraphAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyGraphAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65B66E752DD3D16300AA06EE /* MyGraphAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGraphAppUITests.swift; sourceTree = "<group>"; };
+		65B66E772DD3D16300AA06EE /* MyGraphAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGraphAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		65B66E842DD3F3A400AA06EE /* MyGraphFramework */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MyGraphFramework; path = ../MyGraphFramework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65B66E4E2DD3D16200AA06EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B66E642DD3D16300AA06EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B66E6E2DD3D16300AA06EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65B66E482DD3D16200AA06EE = {
+			isa = PBXGroup;
+			children = (
+				65B66E842DD3F3A400AA06EE /* MyGraphFramework */,
+				65B66E532DD3D16200AA06EE /* MyGraphApp */,
+				65B66E6A2DD3D16300AA06EE /* MyGraphAppTests */,
+				65B66E742DD3D16300AA06EE /* MyGraphAppUITests */,
+				65B66E522DD3D16200AA06EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65B66E522DD3D16200AA06EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65B66E512DD3D16200AA06EE /* MyGraphApp.app */,
+				65B66E672DD3D16300AA06EE /* MyGraphAppTests.xctest */,
+				65B66E712DD3D16300AA06EE /* MyGraphAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65B66E532DD3D16200AA06EE /* MyGraphApp */ = {
+			isa = PBXGroup;
+			children = (
+				65B66E542DD3D16200AA06EE /* AppDelegate.swift */,
+				65B66E562DD3D16200AA06EE /* SceneDelegate.swift */,
+				65B66E582DD3D16200AA06EE /* ViewController.swift */,
+				65B66E5A2DD3D16200AA06EE /* Main.storyboard */,
+				65B66E5D2DD3D16300AA06EE /* Assets.xcassets */,
+				65B66E5F2DD3D16300AA06EE /* LaunchScreen.storyboard */,
+				65B66E622DD3D16300AA06EE /* Info.plist */,
+			);
+			path = MyGraphApp;
+			sourceTree = "<group>";
+		};
+		65B66E6A2DD3D16300AA06EE /* MyGraphAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				65B66E6B2DD3D16300AA06EE /* MyGraphAppTests.swift */,
+			);
+			path = MyGraphAppTests;
+			sourceTree = "<group>";
+		};
+		65B66E742DD3D16300AA06EE /* MyGraphAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				65B66E752DD3D16300AA06EE /* MyGraphAppUITests.swift */,
+				65B66E772DD3D16300AA06EE /* MyGraphAppUITestsLaunchTests.swift */,
+			);
+			path = MyGraphAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65B66E502DD3D16200AA06EE /* MyGraphApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65B66E7B2DD3D16300AA06EE /* Build configuration list for PBXNativeTarget "MyGraphApp" */;
+			buildPhases = (
+				65B66E4D2DD3D16200AA06EE /* Sources */,
+				65B66E4E2DD3D16200AA06EE /* Frameworks */,
+				65B66E4F2DD3D16200AA06EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyGraphApp;
+			productName = MyGraphApp;
+			productReference = 65B66E512DD3D16200AA06EE /* MyGraphApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65B66E662DD3D16300AA06EE /* MyGraphAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65B66E7E2DD3D16300AA06EE /* Build configuration list for PBXNativeTarget "MyGraphAppTests" */;
+			buildPhases = (
+				65B66E632DD3D16300AA06EE /* Sources */,
+				65B66E642DD3D16300AA06EE /* Frameworks */,
+				65B66E652DD3D16300AA06EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65B66E692DD3D16300AA06EE /* PBXTargetDependency */,
+			);
+			name = MyGraphAppTests;
+			productName = MyGraphAppTests;
+			productReference = 65B66E672DD3D16300AA06EE /* MyGraphAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65B66E702DD3D16300AA06EE /* MyGraphAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65B66E812DD3D16300AA06EE /* Build configuration list for PBXNativeTarget "MyGraphAppUITests" */;
+			buildPhases = (
+				65B66E6D2DD3D16300AA06EE /* Sources */,
+				65B66E6E2DD3D16300AA06EE /* Frameworks */,
+				65B66E6F2DD3D16300AA06EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65B66E732DD3D16300AA06EE /* PBXTargetDependency */,
+			);
+			name = MyGraphAppUITests;
+			productName = MyGraphAppUITests;
+			productReference = 65B66E712DD3D16300AA06EE /* MyGraphAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65B66E492DD3D16200AA06EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					65B66E502DD3D16200AA06EE = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					65B66E662DD3D16300AA06EE = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 65B66E502DD3D16200AA06EE;
+					};
+					65B66E702DD3D16300AA06EE = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 65B66E502DD3D16200AA06EE;
+					};
+				};
+			};
+			buildConfigurationList = 65B66E4C2DD3D16200AA06EE /* Build configuration list for PBXProject "MyGraphApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65B66E482DD3D16200AA06EE;
+			productRefGroup = 65B66E522DD3D16200AA06EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65B66E502DD3D16200AA06EE /* MyGraphApp */,
+				65B66E662DD3D16300AA06EE /* MyGraphAppTests */,
+				65B66E702DD3D16300AA06EE /* MyGraphAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65B66E4F2DD3D16200AA06EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B66E612DD3D16300AA06EE /* LaunchScreen.storyboard in Resources */,
+				65B66E5E2DD3D16300AA06EE /* Assets.xcassets in Resources */,
+				65B66E852DD3F3A400AA06EE /* MyGraphFramework in Resources */,
+				65B66E5C2DD3D16200AA06EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B66E652DD3D16300AA06EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B66E6F2DD3D16300AA06EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65B66E4D2DD3D16200AA06EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B66E592DD3D16200AA06EE /* ViewController.swift in Sources */,
+				65B66E552DD3D16200AA06EE /* AppDelegate.swift in Sources */,
+				65B66E572DD3D16200AA06EE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B66E632DD3D16300AA06EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B66E6C2DD3D16300AA06EE /* MyGraphAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B66E6D2DD3D16300AA06EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B66E762DD3D16300AA06EE /* MyGraphAppUITests.swift in Sources */,
+				65B66E782DD3D16300AA06EE /* MyGraphAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65B66E692DD3D16300AA06EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65B66E502DD3D16200AA06EE /* MyGraphApp */;
+			targetProxy = 65B66E682DD3D16300AA06EE /* PBXContainerItemProxy */;
+		};
+		65B66E732DD3D16300AA06EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65B66E502DD3D16200AA06EE /* MyGraphApp */;
+			targetProxy = 65B66E722DD3D16300AA06EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65B66E5A2DD3D16200AA06EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65B66E5B2DD3D16200AA06EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65B66E5F2DD3D16300AA06EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65B66E602DD3D16300AA06EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65B66E792DD3D16300AA06EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65B66E7A2DD3D16300AA06EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65B66E7C2DD3D16300AA06EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQDV9CNTG4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyGraphApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mygraph.MyGraphApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65B66E7D2DD3D16300AA06EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQDV9CNTG4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyGraphApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mygraph.MyGraphApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		65B66E7F2DD3D16300AA06EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQDV9CNTG4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mygraph.MyGraphAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyGraphApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyGraphApp";
+			};
+			name = Debug;
+		};
+		65B66E802DD3D16300AA06EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQDV9CNTG4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mygraph.MyGraphAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyGraphApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyGraphApp";
+			};
+			name = Release;
+		};
+		65B66E822DD3D16300AA06EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQDV9CNTG4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mygraph.MyGraphAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyGraphApp;
+			};
+			name = Debug;
+		};
+		65B66E832DD3D16300AA06EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQDV9CNTG4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mygraph.MyGraphAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyGraphApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65B66E4C2DD3D16200AA06EE /* Build configuration list for PBXProject "MyGraphApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65B66E792DD3D16300AA06EE /* Debug */,
+				65B66E7A2DD3D16300AA06EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65B66E7B2DD3D16300AA06EE /* Build configuration list for PBXNativeTarget "MyGraphApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65B66E7C2DD3D16300AA06EE /* Debug */,
+				65B66E7D2DD3D16300AA06EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65B66E7E2DD3D16300AA06EE /* Build configuration list for PBXNativeTarget "MyGraphAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65B66E7F2DD3D16300AA06EE /* Debug */,
+				65B66E802DD3D16300AA06EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65B66E812DD3D16300AA06EE /* Build configuration list for PBXNativeTarget "MyGraphAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65B66E822DD3D16300AA06EE /* Debug */,
+				65B66E832DD3D16300AA06EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65B66E492DD3D16200AA06EE /* Project object */;
+}
